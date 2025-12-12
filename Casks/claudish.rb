@@ -1,5 +1,5 @@
 cask "claudish" do
-  version "2.8.0"
+  version "2.8.1"
 
   on_arm do
     url "https://github.com/MadAppGang/claudish/releases/download/v#{version}/claudish-darwin-arm64"
