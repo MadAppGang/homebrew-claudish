@@ -1,14 +1,14 @@
 cask "claudish" do
-  version "5.1.1"
+  version "5.1.2"
 
   on_arm do
     url "https://github.com/MadAppGang/claudish/releases/download/v#{version}/claudish-darwin-arm64"
-    sha256 "bceddd527f4039ea5d4eba18d9471c0f92986f62a9f707d20441456c0648ddc7"
+    sha256 "7e87f4b14bca7572f1e0ec66908336ad4bddeb46538fbfa1397ce514b765db44"
   end
 
   on_intel do
     url "https://github.com/MadAppGang/claudish/releases/download/v#{version}/claudish-darwin-x64"
-    sha256 "0c30e4052f13eeef2b1baacbb824fee154fc3209f62320d3abfd8ebc527b4ac6"
+    sha256 "cf8d6cb434509903519a2d148bd970e95c2d1296252dda1fc13cfb938d2f7db1"
   end
 
   name "claudish"
